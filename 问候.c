@@ -2,9 +2,7 @@
 
 int main()
 {
-	int a=010;
+    printf("ÍõÖĞÌ«SB\n");
 
-    printf("%d",a);
+    return 0;
 }
-
-

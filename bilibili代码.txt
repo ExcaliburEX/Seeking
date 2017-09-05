@@ -1,0 +1,25 @@
+#include "acllib.h"
+
+int Setup()
+{
+	initWindow("...",100,100,500,500);
+	beginPaint();
+    setBrushColor(BLACK);       
+    rectangle(0,0,1600,600);     
+    setPenColor(WHITE); 
+    setPenWidth(15);
+    setPenStyle(PEN_STYLE_SOLID); 
+    line(25,100,475,100);
+  	line(475,100,475,400);
+  	line(475,400,25,400);
+  	line(25,400,25,100);
+  	line(70,200,180,150);
+	line(320,150,430,200);
+	line(90,30,200,100);
+	line(300,100,410,30);
+	line(200,300,290,300);
+	line(135,400,135,420);
+	line(365,400,365,420);
+    endPaint();
+    return 0;
+}
